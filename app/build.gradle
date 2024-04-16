@@ -27,10 +27,14 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'adp.App'
+    mainClass = 'adp.aufgabe1.teilB.AccumulatorClient'
 }
 
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+run {
+    standardInput = System.in
 }
