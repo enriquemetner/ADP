@@ -14,7 +14,9 @@ public class VisualAccumulator extends SimpleAccumulator {
         @Override
         public void addDataValue(double d) {
             n++;
-            sum += d;
+            double delta = d - mean;
+            mean  += delta / n;
+            sum += (double) (n - 1) / n * delta * delta;
             StdDraw.setPenColor(Color.DARK_GRAY);
             StdDraw.point(n, d);
             StdDraw.setPenColor(Color.RED);
