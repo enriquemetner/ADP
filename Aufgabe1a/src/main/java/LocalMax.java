@@ -1,5 +1,3 @@
-package adp.aufgabe1.teilA;
-
 import java.util.Arrays;
 
 /**

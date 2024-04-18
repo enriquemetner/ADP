@@ -1,5 +1,3 @@
-package adp.aufgabe1.teilB;
-
 /**
  *  The {@code Accumulator} class is a data type for computing the running
  *  mean, sample standard deviation, and sample variance of a stream of real
@@ -94,7 +92,7 @@ public class SimpleAccumulator {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        SimpleAccumulator stats = new SimpleAccumulator();
+        // SimpleAccumulator stats = new SimpleAccumulator();
         // while (!StdIn.isEmpty()) {
         //     double x = StdIn.readDouble();
         //     stats.addDataValue(x);

@@ -1,5 +1,3 @@
-package adp.aufgabe1.teilB;
-
 import edu.princeton.cs.algs4.StdDraw;
 import java.awt.Color;
 import java.util.Scanner;

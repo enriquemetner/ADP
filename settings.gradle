@@ -8,4 +8,5 @@
  */
 
 rootProject.name = 'ADP'
-include('app')
+include('Aufgabe1a')
+include('Aufgabe1b')

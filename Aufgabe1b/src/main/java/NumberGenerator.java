@@ -1,5 +1,3 @@
-package adp.aufgabe1.teilB;
-
 /**
  * Generates random numbers
  */

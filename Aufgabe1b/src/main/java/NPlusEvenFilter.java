@@ -1,5 +1,3 @@
-package adp.aufgabe1.teilB;
-
 import java.io.InputStream;
 import java.util.Scanner;
 
