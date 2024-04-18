@@ -16,9 +16,9 @@ public class NumberGenerator {
     public static double[] generate(int n, double min, double max) {
         double[] numbers = new double[n];
         for (int i = 0; i < n; i++) {
-            double number = Math.random() * (max+1 - min) + min;
+            double number = Math.random() * (max - min) + min;
             if (Math.random() < 0.5) {
-                number = (int)number;
+                number = Math.round(number);
             }
             numbers[i] = number;
         }
@@ -40,6 +40,11 @@ public class NumberGenerator {
     }
 
     public static void main(String[] args) {
-        printNumbers(50, 5, 10);
+        int n = Integer.parseInt(args[0]);
+        double min = Double.parseDouble(args[1]);
+        double max = Double.parseDouble(args[2]);
+        printNumbers(n, min, max);
+        // printNumbers(20, 0, 10);
+    
     }
 }

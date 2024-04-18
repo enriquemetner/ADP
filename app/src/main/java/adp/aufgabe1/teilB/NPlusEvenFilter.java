@@ -10,7 +10,7 @@ public class NPlusEvenFilter {
         while (scanner.hasNext()) {
             try {
                 String input = scanner.next();
-                if (Integer.parseInt(input) > 0 && Integer.parseInt(input)%2 == 0) {
+                if (Integer.parseInt(input) >= 0 && Integer.parseInt(input)%2 == 0) {
                     System.out.println(input + " ");
                 }
             } catch (NumberFormatException e) {}
